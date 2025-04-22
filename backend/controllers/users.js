@@ -12,7 +12,6 @@ exports.getTopUsers = async (req, res) => {
 
     for (const [userId, userName] of Object.entries(users)) {
       const posts = await getUserPosts(userId);
-      console.log(posts)
       let commentCount = 0;
 
       for (const post of posts) {

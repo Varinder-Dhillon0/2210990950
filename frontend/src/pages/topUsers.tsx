@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { fetchTopUsers } from '../services/api'
 import { User } from '../types'
 import UserCard from '../components/userCard'
@@ -60,6 +60,13 @@ const TopUsers: React.FC = () => {
             )}
         </div>
     )
+}
+
+
+const useAuth = () =>{
+
+    
+    return {true}
 }
 
 export default TopUsers

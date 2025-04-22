@@ -1,0 +1,25 @@
+
+.age{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    margin: 0 auto;
+    gap: 10px;
+}
+
+.age h1{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+.age button{
+    background-color: black;
+    color: white;
+    width: 100%;
+    border: 0;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}

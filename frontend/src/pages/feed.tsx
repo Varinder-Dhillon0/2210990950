@@ -28,17 +28,6 @@ const Feed: React.FC = () => {
         }
 
         loadFeed()
-
-        // // Setup socket event listeners
-        // socket.on('newPost', (post: Post) => {
-        //     setNewPosts((prev) => [post, ...prev])
-        //     setNewPostsCount((prev) => prev + 1)
-        // })
-
-        // return () => {
-        //     // Cleanup socket listeners on component unmount
-        //     socket.off('newPost')
-        // }
     }, [])
 
     const showNewPosts = () => {

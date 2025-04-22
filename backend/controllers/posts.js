@@ -14,6 +14,7 @@ exports.getPosts = async (req, res) => {
     const users = await getUsers();
     console.log(users)
     let allPosts = [];
+    
 
     for (const userId of Object.keys(users)) {
       const posts = await getUserPosts(userId);
